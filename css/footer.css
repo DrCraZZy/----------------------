@@ -1,0 +1,19 @@
+.footer {
+    border-top: 1px solid #E8E8E8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:90px;
+    padding-right: 100px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.hotcoffe {
+    font-weight: 700;
+}
+

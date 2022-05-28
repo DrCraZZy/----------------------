@@ -1,12 +1,14 @@
 .header {
-    padding-left:90px;
-    padding-right: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 90px;
+    padding-right: 100px;
 }
 
 .hotcoffe-title {
@@ -18,7 +20,7 @@
     margin-bottom: -3px;
 }
 
-input[type=search]{
+input{
     border: none;
     font-size: 16px;
 }
@@ -32,4 +34,28 @@ input[type=search]{
 .menu>a {
     text-decoration: none;
     color: #000000;
+}
+
+.head-section {
+    padding-left:0;
+    padding-right: 0;
+    background: #FBFBFB;
+    display: flex;
+    justify-content: space-around;
+}
+
+.make-better-coffee {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.cup-of-coffee {
+    margin-bottom: -20px;
+}
+
+.how-to-blog {
+    font-size: 30px;
+    line-height: 36px;
+    color: #4A5568;
 }

@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left:90px;
+    padding-left: 90px;
     padding-right: 100px;
 }
 
@@ -16,4 +16,3 @@
 .hotcoffe {
     font-weight: 700;
 }
-

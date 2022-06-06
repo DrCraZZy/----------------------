@@ -3,10 +3,9 @@
 body {
     font-family: Inter, sans-serif;;
     font-weight: 400;
-    min-width: 750px;
+    min-width: 1280px;
     max-width: 1280px;
-    padding-left: 20%;
-    padding-right: 20%;
+    margin: auto;
 }
 
 .body__icon {

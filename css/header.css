@@ -3,7 +3,7 @@
     padding-right: 0px;
 }
 
-.navigation {
+.header__navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,50 +11,46 @@
     padding-right: 100px;
 }
 
-.hotcoffe-title {
+.header__hotcoffe-title {
     font-weight: 700;
     font-size: 20px;
 }
 
-.search-bar>img {
+.header__search-bar>img {
     margin-bottom: -3px;
 }
 
-input{
+.header__search-bar>input{
     border: none;
     font-size: 16px;
 }
 
-.menu {
+.header__menu {
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
 
-.menu>a {
-    text-decoration: none;
-    color: #000000;
-}
-
-.head-section {
+.header__head-section {
     padding-left:0;
     padding-right: 0;
     background: #FBFBFB;
     display: flex;
     justify-content: space-around;
+    padding: 70px;
 }
 
-.make-better-coffee {
+.header__make-better-coffee {
     font-weight: 700;
     font-size: 60px;
     line-height: 60px;
 }
 
-.cup-of-coffee {
+.header__cup-of-coffee {
     margin-bottom: -20px;
 }
 
-.how-to-blog {
+.header__how-to-blog {
     font-size: 30px;
     line-height: 36px;
     color: #4A5568;

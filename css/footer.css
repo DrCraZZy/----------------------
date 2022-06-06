@@ -8,12 +8,12 @@
     margin-top: 20px;
 }
 
-.social-media {
+.footer__social-media {
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
 
-.hotcoffe {
+.footer__hotcoffe {
     font-weight: 700;
 }

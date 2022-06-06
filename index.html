@@ -3,71 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/body.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
-    <title>Document</title>
+    <title>Blog main page</title>
 </head>
 <body>
     <header class="header">
-        <nav class="navigation">
-            <div class="hotcoffe-title">
+        <nav class="header__navigation">
+            <div class="header__hotcoffe-title">
                 <p>HotCoffe</p>
             </div>
-            <div class="search-bar">
-                <img class="icon" src="icon/loupe.svg" alt="loupe">                  
+            <div class="header__search-bar">
+                <img class="body__icon" src="icon/loupe.svg" alt="loupe">                  
                 <input class="search" type="search" placeholder="Search...">
             </div>
-            <div class="menu">
+            <div class="header__menu">
                 <a href="#Home">Home</a>
                 <a href="#Articles">Articles</a>    
-                <a href="https://www.instagram.com/"><img class="icon" src="icon/instagram.svg" alt="Instagram link"></a>
-                <a href="https://www.twitter.com/"><img class="icon" src="icon/twitter.svg" alt="Twiter link"></a>
-                <a href="https://www.linkedin.com/"><img class="icon" src="icon/linkedin.svg" alt="LinkdIn link"></a>
+                <a href="https://www.instagram.com/"><img class="body__icon" src="icon/instagram.svg" alt="Instagram link"></a>
+                <a href="https://www.twitter.com/"><img class="body__icon" src="icon/twitter.svg" alt="Twiter link"></a>
+                <a href="https://www.linkedin.com/"><img class="body__icon" src="icon/linkedin.svg" alt="LinkdIn link"></a>
             </div>
         </nav>
-        <div class="head-section">
+        <div class="header__head-section">
             <div>
-                <h1 class="make-better-coffee">Make better<br> coffee <img class="cup-of-coffee" src="img/coffee.png" alt="cup-of-coffee" ></h1>
-                <p class="how-to-blog">why learn how to blog?</p>
+                <h1 class="header__make-better-coffee">Make better<br> coffee <img class="header__cup-of-coffee" src="img/coffee.png" alt="cup-of-coffee" ></h1>
+                <p class="header__how-to-blog">why learn how to blog?</p>
             </div>
             <div>
                 <img src="img/croods.png" alt="croods">
-            </div>
-            
+            </div>            
         </div>
     </header>
 
     <main class="main">
         <div class="last-blog">
-            <h2>long established</h2>
-            <p>It is a long established fast that a reader will be distracted by the eadable content of page when looking at its layout. The point of using Lorem Ipsum is that...</p>
-            <p>May 20th 2022</p>
-            <img src="img/man_with_mac.png" alt="">
-            <a href="#Readmore">Read more</a>
+            <div class="view-blog-text">
+                <h2 class="last-blog-name">long established</h2>
+                <p class="last-blog-text">It is a long established fast that a reader will be distracted by the eadable content of page when looking at its layout. The point of using Lorem Ipsum is that...</p>
+                <div class="view-last-line">
+                    <p class="publish-date">May 20th 2022</p>
+                    <a class="read-more" href="details.html">Read more</a>
+                </div>
+            </div>
+            <div>
+                <img src="img/man_with_mac.png" alt="man_with_mac">
+            </div>
         </div>
+
         <div class="posts">
-            <div class="last-blog">
-                <img src="img/post1.png" alt="post1">
-                <h2>long established</h2>
-                <p>It is a long established fast that a reader will be distracted by the eadable content of page when looking at its layout. The point of using Lorem Ipsum is that...</p>
-                <p>May 20th 2022</p>
-                <a href="#Readmore">Read more</a>
+            <div class="blog">
+                <img class="post-img" src="img/post1.png" alt="post1">
+                <div class="blog-text">
+                    <h2>long established</h2>
+                    <p>It is a long established fast that a reader will be distracted by the eadable content of page when looking at its layout. The point of using Lorem Ipsum is that...</p>
+                    <div class="view-last-line">
+                        <p>May 20th 2022</p>
+                        <a href="#Readmore">Read more</a>
+                    </div>
+                </div>
             </div>
-            <div class="last-blog">
-                <img src="img/post2.png" alt="post2">
-                <h2>long established</h2>
-                <p>It is a long established fast that a reader will be distracted by the eadable content of page when looking at its layout. The point of using Lorem Ipsum is that...</p>
-                <p>May 20th 2022</p>
-                <a href="#Readmore">Read more</a>
+            <div class="blog">
+                <img class="post-img" src="img/post2.png" alt="post2">
+                <div class="blog-text">
+                    <h2>long established</h2>
+                    <p>It is a long established fast that a reader will be distracted by the eadable content of page when looking at its layout. The point of using Lorem Ipsum is that...</p>
+                    <div class="view-last-line">
+                        <p>May 20th 2022</p>
+                        <a href="#Readmore">Read more</a>
+                    </div>
+                </div>
             </div>
-            <div class="last-blog">
-                <img src="img/post3.png" alt="post3">
-                <h2>long established</h2>
-                <p>It is a long established fast that a reader will be distracted by the eadable content of page when looking at its layout. The point of using Lorem Ipsum is that...</p>
-                <p>May 20th 2022</p>
-                <a href="#Readmore">Read more</a>
+            <div class="blog">
+                <img class="post-img" src="img/post3.png" alt="post3">
+                <div class="blog-text">
+                    <h2>long established</h2>
+                    <p>It is a long established fast that a reader will be distracted by the eadable content of page when looking at its layout. The point of using Lorem Ipsum is that...</p>
+                    <div class="view-last-line">
+                        <p>May 20th 2022</p>
+                        <a href="#Readmore">Read more</a>
+                    </div>
+                </div>
             </div>
         </div>
         
@@ -84,11 +102,11 @@
         </button>
     </main>
     <footer class="footer">
-        <p><span class="hotcoffe">hotcoffee</span> 2022 copyright all rights reserved</p>
-        <div class="social-media">
-            <a href="https://www.instagram.com/"><img class="icon" src="icon/instagram.svg" alt="Instagram link"></a>
-            <a href="https://www.twitter.com/"><img class="icon" src="icon/twitter.svg" alt="Twiter link"></a>
-            <a href="https://www.linkedin.com/"><img class="icon" src="icon/linkedin.svg" alt="LinkdIn link"></a>
+        <p><span class="footer__hotcoffe">hotcoffee</span> 2022 copyright all rights reserved</p>
+        <div class="footer__social-media">
+            <a href="https://www.instagram.com/"><img class="body__icon" src="icon/instagram.svg" alt="Instagram link"></a>
+            <a href="https://www.twitter.com/"><img class="body__icon" src="icon/twitter.svg" alt="Twiter link"></a>
+            <a href="https://www.linkedin.com/"><img class="body__icon" src="icon/linkedin.svg" alt="LinkdIn link"></a>
         </div>
     </footer>    
 </body>

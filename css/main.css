@@ -5,7 +5,7 @@
     padding-right: 100px;
 }
 
-.last-blog {
+.main__last-blog {
     display: flex;
     justify-content: space-around;
     background: #FFFFFF;
@@ -16,49 +16,49 @@
     margin-bottom: 40px;
 }
 
-.view-blog-text {
+.main__blog-text {
     margin-right: 40px;
 }
 
-.last-blog-name {
+.main__blog-name {
     font-size: 30px;
     font-weight: 700;
     color: #2D3748;
 }
 
-.last-blog-text {
+.main__blog-text {
     font-size: 14px;
     line-height: 17px;
     color: #718096;
 }
 
-.view-last-line {
+.main__view-blog-text__last-line {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.view-last-line>a {
+.main__view-blog-text__last-line>a {
     font-weight: 700;
 }
 
-.view-last-line>p {
+.main__view-blog-text__last-line>p {
     color: #718096;
 }
 
-.post-img {
+.main_post-img {
     height: 180px;
     width: 100%;
     object-fit: cover;
 }
 
-.posts {
+.main__posts {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
 
-.blog {
+.main_posts__blog {
     background: #FFFFFF;
     border: 1px solid #E2E2E2;
     box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
@@ -67,17 +67,45 @@
     width: 350px;
 }
 
-.blog-text {
+.main_blog-text {
     padding-left: 5%;
     padding-right: 5%;
 }
 
-.blog-text>p {
+.main_blog-text>p {
     color: #718096;
 }
 
-.button {
-    color: #6B46C1;
+.main__what-is-loremipsum {
+    background: #F7FAFC;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main__what-is-loremipsum__view-blog-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20%;
+    
+}
+
+.main__button {
+    margin-top: 30px;
+    background-color: #6B46C1;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    width: 120px;
     height: 37px;
-    width: 122px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.main__right {
+    display: grid;
+    justify-content: right;
 }

@@ -3,7 +3,7 @@
 body {
     font-family: Inter, sans-serif;;
     font-weight: 400;
-    min-width: 1280px;
+    min-width: 1024px;
     max-width: 1280px;
     margin: auto;
 }
@@ -16,4 +16,5 @@ body {
 a {
     text-decoration: none;
     color: #000000;
+    cursor: pointer;
 }
